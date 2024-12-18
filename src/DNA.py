@@ -5,7 +5,7 @@ By: Shogan
 
 def main():
     # Input
-    with open("rosalind_dna.txt", 'r') as file:
+    with open("sample_input/rosalind_dna.txt", 'r') as file:
         sample = file.read().strip()
 
     # main logic

@@ -51,7 +51,7 @@ def main():
     """
     Main Logic
     """
-    result = max_gc("rosalind_gc.txt")
+    result = max_gc("sample_input/rosalind_gc.txt")
     print(result[0].removeprefix('>'),'\n',result[1])
 
 if __name__=='__main__':

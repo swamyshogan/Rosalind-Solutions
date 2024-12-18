@@ -11,7 +11,7 @@ def revc(dna:str):
 
 def main():
     # input
-    with open("rosalind_revc.txt", 'r') as file:
+    with open("sample_input/rosalind_revc.txt", 'r') as file:
         s = file.read().strip()
 
     # output
